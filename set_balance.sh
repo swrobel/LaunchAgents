@@ -1,24 +1,12 @@
 #!/usr/bin/env osascript
 
-tell application "System Events"
-  set activeApp to name of first application process whose frontmost is true
-  if not ("System Preferences" is in activeApp) then
-    tell application "System Preferences"
-      reveal anchor "output" of pane id "com.apple.preference.sound"
-    end tell
+-- Check if output is muted
+set isMuted to (output muted of (get volume settings))
 
-    tell application "System Events"
-      tell application process "System Preferences"
-        repeat until exists tab group 1 of window "Sound"
-        end repeat
-        tell slider 1 of group 1 of tab group 1 of window 1
-          set value to 0.5
-        end tell
-      end tell
-    end tell
+-- Use the "reset volume" side effect to reset the output balance
+set volume output volume (output volume of (get volume settings))
 
-    tell application "System Preferences"
-      quit
-    end tell
-  end if
-end tell
+-- Restore muted output state
+if (isMuted) is true then
+	set volume with output muted
+end if
