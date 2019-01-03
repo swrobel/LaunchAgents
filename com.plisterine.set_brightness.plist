@@ -12,7 +12,7 @@
 	<array>
 		<string>/bin/sh</string>
 		<string>-c</string>
-		<string>/Users/swrobel/Library/Mobile\ Documents/com~apple~ScriptEditor2/Documents/set-brightness.sh</string>
+		<string>/Users/swrobel/Code/LaunchAgents/set_brightness.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
@@ -23,6 +23,6 @@
 	<key>StartInterval</key>
 	<integer>60</integer>
 	<key>WorkingDirectory</key>
-	<string>/Users/swrobel/Library/Mobile Documents/com~apple~ScriptEditor2/Documents</string>
+	<string>/Users/swrobel/Code/LaunchAgents</string>
 </dict>
 </plist>
