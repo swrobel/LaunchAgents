@@ -1,4 +1,5 @@
 #!/usr/bin/env osascript
+# Restore balance to 50/50 if it shifts for some reason
 
 -- Check if output is muted
 set isMuted to (output muted of (get volume settings))
