@@ -17,12 +17,12 @@
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>
-	<string>/Users/swrobel/Library/Logs/dotfiles.log</string>
+	<string>/Users/ag78784/Library/Logs/dotfiles.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/swrobel/Library/Logs/dotfiles.log</string>
+	<string>/Users/ag78784/Library/Logs/dotfiles.log</string>
 	<key>StartInterval</key>
 	<integer>3600</integer>
 	<key>WorkingDirectory</key>
-	<string>/Users/swrobel/Code/dotfiles</string>
+	<string>/Users/ag78784/Code/dotfiles</string>
 </dict>
 </plist>

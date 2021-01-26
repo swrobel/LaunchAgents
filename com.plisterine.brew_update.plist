@@ -12,17 +12,17 @@
 	<array>
 		<string>/bin/sh</string>
 		<string>-c</string>
-		<string>/Users/swrobel/Code/homebrew-notifier/notifier.sh</string>
+		<string>/Users/ag78784/Code/homebrew-notifier/notifier.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>
-	<string>/Users/swrobel/Library/Logs/Homebrew/update.log</string>
+	<string>/Users/ag78784/Library/Logs/Homebrew/update.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/swrobel/Library/Logs/Homebrew/update.log</string>
+	<string>/Users/ag78784/Library/Logs/Homebrew/update.log</string>
 	<key>StartInterval</key>
 	<integer>3600</integer>
 	<key>WorkingDirectory</key>
-	<string>/Users/swrobel/Code/homebrew-notifier</string>
+	<string>/Users/ag78784/Code/homebrew-notifier</string>
 </dict>
 </plist>
